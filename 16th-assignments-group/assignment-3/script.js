@@ -1,0 +1,15 @@
+let paragraph = document.querySelector("p");
+paragraph.remove();
+let div = document.querySelector("div");
+let beforeDiv = document.createElement("div");
+beforeDiv.className = "start";
+beforeDiv.title = "Start Element";
+beforeDiv.setAttribute("data-value","Start");
+beforeDiv.innerHTML = "Start";
+div.before(beforeDiv);
+let afterDiv = document.createElement("div");
+afterDiv.className = "end";
+afterDiv.title = "End Element";
+afterDiv.setAttribute("data-value","End");
+afterDiv.innerHTML = "End";
+div.after(afterDiv);
