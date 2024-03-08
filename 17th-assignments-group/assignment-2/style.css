@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.popUp {
+    background-color: bisque;
+    margin: 100px auto ;
+    text-align: center;
+    width: 30%;
+    padding: 40px 40px;
+    animation-name: Bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+    border: 1px solid cadetblue;
+    position: relative;
+    display: none;
+}
+h1,p {
+    margin-bottom: 10px;
+}
+@keyframes Bounce {
+    50% {
+        margin-top: 250px;
+    }
+    100% {
+        margin-top: -5px;
+    }
+}
+span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: cadetblue;
+    color: white;
+    right: -22px;
+    top: -15px;
+    line-height: 35px; 
+    font-weight: bold;
+    border: 3px solid bisque;
+}
