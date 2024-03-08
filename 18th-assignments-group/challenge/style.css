@@ -1,0 +1,81 @@
+div {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    -webkit-transform: translate(-50%,-20%);
+    -moz-transform: translate(-50%,-20%);
+    -ms-transform: translate(-50%,-20%);
+    -o-transform: translate(-50%,-20%);
+}
+.tasks {
+    top: 50%;
+}
+div:first-child {
+    background-color: darksalmon;
+    width: 30%;
+    height: 50px;
+    padding: 20px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+input[type='text'] {
+    padding: 10px 22px;
+    display: inline-block;
+    width: 60%;
+    margin-right: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border: none;
+}
+input[type='submit'] {
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+.tasks {
+    width: 50%;
+    height: 100px;
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+.tasks p {
+    width: 70%;
+    height: fit-content;
+    margin-left: 18px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+p button {
+    width: fit-content;
+    height: 50px;
+    position: absolute;
+    padding: 5px 30px;
+    right: -120px;
+    bottom: 0;
+    cursor: pointer;
+}

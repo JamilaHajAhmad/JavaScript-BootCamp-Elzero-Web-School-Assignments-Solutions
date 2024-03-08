@@ -1,0 +1,51 @@
+div {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    -webkit-transform: translate(-50%,-30%);
+    -moz-transform: translate(-50%,-30%);
+    -ms-transform: translate(-50%,-30%);
+    -o-transform: translate(-50%,-30%);
+    margin-bottom: 30px;
+}
+.largest {
+    top: 60%;
+}
+.container {
+    width: 50%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px 30px;
+}
+span {
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
+span:first-of-type {
+    background-color: aqua;
+}
+span:nth-of-type(2) {
+    background-color: brown;
+}
+span:nth-of-type(3) {
+    background-color: fuchsia;
+}
+span:last-of-type {
+    background-color: lime;
+}
+.largest {
+    width: 40%;
+    height: 200px;
+    background-color: aqua;
+}
+.active {
+    opacity: 1;
+}
+span:hover {
+    opacity: 1;
+}
