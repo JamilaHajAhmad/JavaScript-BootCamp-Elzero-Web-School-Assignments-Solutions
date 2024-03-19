@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "Author": "Jane Doe",
+        "Section": "Introduction",
+        "Address": "https://example.com/article1",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+    },
+    {
+        "id": 2,
+        "Author": "John Smith",
+        "Section": "Methodology",
+        "Address": "https://sample.org/article2",
+        "Content": "The study aimed to investigate the effects of..."
+    },
+    {
+        "id": 3,
+        "Author": "Emily Johnson",
+        "Section": "Results",
+        "Address": "https://testsite.net/article3",
+        "Content": "In the results section, it was observed that..."
+    },
+    {
+        "id": 4,
+        "Author": "Alex Rodriguez",
+        "Section": "Discussion",
+        "Address": "https://demo.io/article4",
+        "Content": "Furthermore, the discussion delves into the implications of..."
+    },
+    {
+        "id": 5,
+        "Author": "Samantha Lee",
+        "Section": "Conclusion",
+        "Address": "https://articlehub.com/article5",
+        "Content": "In conclusion, the findings of this research suggest..."
+    }
+]
